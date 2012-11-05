@@ -32,8 +32,6 @@ USE_CAMERA_STUB := true
 # inherit from the proprietary version
 -include vendor/htc/shooteru/BoardConfigVendor.mk
 
-#TARGET_SPECIFIC_HEADER_PATH := device/htc/shooteru/include
-
 TARGET_BOOTLOADER_BOARD_NAME := shooteru
 
 BOARD_KERNEL_CMDLINE := console=ttyHSL0 androidboot.hardware=shooteru no_console_suspend=1
